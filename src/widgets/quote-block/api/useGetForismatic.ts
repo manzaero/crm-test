@@ -1,9 +1,5 @@
 import {useEffect, useState} from "react";
 
-type Quote = {
-    quoteText: string,
-    quoteAuthor: string
-}
 
 export const useGetForismatic = () => {
     const [quote, setQuote] = useState<{ quoteText: string; quoteAuthor: string } | null>(null);

@@ -1,4 +1,4 @@
-import {useGetForismatic} from "@/widgets/quote-block/api/useGetForismatic.ts";
+import {useGetForismatic} from "@/widgets/quote-block/api";
 
 export function QuoteBlock() {
     const {quote, loading, error} = useGetForismatic()

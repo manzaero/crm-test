@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "email": "admin@example.com",
+      "password": "$2a$10$Ns21.Ig7jdCEvUhP1xb/6.DDJkbC78uLJVHTSpBp8bWxhB1yNUorK",
+      "id": 1
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Hello World",
+      "userId": 1
+    }
+  ]
+}

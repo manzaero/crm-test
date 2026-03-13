@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "node server.js",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -11,7 +12,15 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "json-server": "^0.17.4",
+    "json-server-auth": "^2.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.1.1",
     "react": "^19.2.0",
+    "react-app-env": "^1.2.3",
     "react-dom": "^19.2.0",
     "react-router-dom": "^7.13.1",
     "tailwindcss": "^4.2.1"
@@ -29,5 +38,18 @@
   },
   "overrides": {
     "vite": "^8.0.0-beta.13"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manzaero/crm-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manzaero/crm-test/issues"
+  },
+  "homepage": "https://github.com/manzaero/crm-test#readme"
 }

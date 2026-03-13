@@ -13,10 +13,13 @@ export const Footer = () => {
                         <a href="#" className="hover:text-indigo-400 transition-colors">Twitter</a>
                     </li>
                 </ul>
+
+                <QuoteBlock/>
+                <br/>
                 <p className="text-sm opacity-80">
                     © {new Date().getFullYear()} Kotaro.
                 </p>
-                <QuoteBlock/>
+
             </div>
         </footer>
     )
